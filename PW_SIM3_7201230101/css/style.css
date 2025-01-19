@@ -1,0 +1,55 @@
+:root {
+    --blue1: #0d92f4;
+    --blue2: #77cdff;
+    --merah1: #f95454;
+    --merah2: #c62e2e;
+    --putih1: #ffffff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--blue1);
+    color: var(--putih1);
+
+}
+
+ul li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar-item {
+    display: flex;
+}
+
+.navbar-item li {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.main-content {
+    margin-top: 2%;
+}
+
+.d-flax {
+    display: flex;
+}
