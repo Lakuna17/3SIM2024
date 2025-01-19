@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Web Development</title>
+</head>
+<body>
+
+    <h1>Belajar Web Development</h1>
+
+    <h2>1. Perbedaan HTML, CSS, dan JavaScript</h2>
+    <p>HTML (HyperText Markup Language) adalah struktur dasar dari halaman web. CSS (Cascading Style Sheets) digunakan untuk memberikan gaya dan tata letak. JavaScript adalah bahasa pemrograman yang digunakan untuk memberikan interaktivitas pada halaman web.</p>
+
+    <h3>Contoh Kerja Sama HTML, CSS, dan JavaScript</h3>
+    <button onclick="showWelcomeMessage()">Klik Saya!</button>
+
+    <h2>2. HTTP, GET dan POST</h2>
+    <p>HTTP (Hypertext Transfer Protocol) adalah protokol yang digunakan untuk mentransfer data antara client (browser) dan server. Metode GET digunakan untuk meminta data dari server tanpa mengubah data, sedangkan POST digunakan untuk mengirim data ke server dan mengubah data tersebut.</p>
+
+    <h2>3. Konsep DOM dalam JavaScript</h2>
+    <p>DOM (Document Object Model) adalah representasi objek dari elemen HTML pada halaman web. Dengan DOM, kita dapat memanipulasi elemen-elemen HTML seperti menambah, mengubah, atau menghapus elemen.</p>
+
+    <h2>4. Static Website vs Dynamic Website</h2>
+    <p>Static website adalah website yang isinya tetap dan tidak berubah, biasanya menggunakan HTML dan CSS saja. Dynamic website menggunakan teknologi backend seperti PHP, Node.js, atau Python dan dapat menampilkan konten yang berubah berdasarkan input atau interaksi pengguna.</p>
+
+    <h2>5. Cara Kerja Client-Server dalam Arsitektur Web</h2>
+    <p>Client (seperti browser) mengirimkan permintaan HTTP ke server, yang kemudian memproses permintaan tersebut dan mengirimkan respons kembali ke client. Respons ini bisa berupa file HTML, gambar, atau data lainnya.</p>
+
+    <h2>6. Form Pendaftaran</h2>
+    <form onsubmit="event.preventDefault(); displayFormData();">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Masukkan password" required>
+        
+        <button type="submit">Daftar</button>
+    </form>
+
+    <h2>7. Tombol dengan CSS</h2>
+    <button>Contoh Tombol</button>
+
+    <h2>8. Tabel Daftar Produk</h2>
+    <table>
+        <caption>Produk Terbaru</caption>
+        <thead>
+            <tr>
+                <th>Nama Produk</th>
+                <th>Harga</th>
+                <th>Ketersediaan Stok</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Smartphone XYZ</td>
+                <td>Rp 3.000.000</td>
+                <td>Tersedia</td>
+            </tr>
+            <tr>
+                <td>Laptop ABC</td>
+                <td>Rp 7.500.000</td>
+                <td>Habis</td>
+            </tr>
+            <tr>
+                <td>Headphone 123</td>
+                <td>Rp 500.000</td>
+                <td>Tersedia</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
