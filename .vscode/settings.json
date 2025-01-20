@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 {}
+=======
+{
+    "java.debug.settings.onBuildFailureProceed":benar,
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:nonaktifkan",
+    "vscode-pets.theme": "kastil",
+    "vscode-pets.petSize": "nano"
+}
+>>>>>>> 092592f6b8e704e39ba19004ad4f7062e845c44a
